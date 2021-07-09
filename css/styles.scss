@@ -36,8 +36,9 @@ body {
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     background: #1d2659 !important;
 }
+
 .dropdown-item {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 .logo {
@@ -321,6 +322,9 @@ p {
 .parners {
     width: 100%;
     padding-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     @media screen and (max-width: $movil) {
         & {

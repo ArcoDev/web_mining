@@ -1,5 +1,5 @@
 $('#send').click(function () {
-    var name, email, issue, message, error, success, msjAlert, send, body;
+    var name, email, issue, message, error, success, msjAlert, send;
     name = document.getElementById('name').value;
     email = document.getElementById('email').value;
     issue = document.getElementById('issue').value;
